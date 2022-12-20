@@ -34,6 +34,7 @@ const CalculationBox = () => {
             value={expense}
             placeholder="₹25,000"
             keyboardType="numeric"
+            placeholderTextColor="#333"
           />
         </View>
 
@@ -49,6 +50,7 @@ const CalculationBox = () => {
             value={EMI}
             placeholder="₹14,500"
             keyboardType="numeric"
+            placeholderTextColor="#333"
           />
         </View>
         <Button
@@ -105,6 +107,7 @@ const styles = StyleSheet.create({
     width: 148,
     borderRadius: 5,
     textAlign: 'right',
+    color: 'black',
   },
   line: {
     height: 1,
